@@ -36,15 +36,15 @@ spec:
         - name: AWS_BUCKET_ADMINLOGS
           value: adminbucket
         - name: IPFS_OUTPUT
-          value: http://youripfsserver:5001
+          value: http://ipfs.oceanprotocol.com:5001
         - name: IPFS_OUTPUT_PREFIX
-          value: http://youripfsserver:8080/ipfs/
+          value: http://ipfs.oceanprotocol.com:8080/ipfs/
         - name: IPFS_ADMINLOGS
-          value: http://youradminipfsserver:5001
+          value: http://ipfs.oceanprotocol.com:5001
         - name: IPFS_ADMINLOGS_PREFIX
-          value: http://youradminipfsserver:8080/ipfs/
+          value: http://ipfs.oceanprotocol.com:8080/ipfs/
         - name: IPFS_EXPIRY_TIME
-          value: "3600"
+          value: "0"
         - name: IPFS_API_KEY
           value: "apikey"
         - name: IPFS_API_CLIENT
